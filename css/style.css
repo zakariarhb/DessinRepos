@@ -1,5 +1,19 @@
+﻿body
+{
+	/* background-image : url(''); */
+	background-color : rgb(133,218,200);
+}
 canvas 
 {
-	background-color: green;
+	border : 2px solid rgba(200,155,140,1);
+	border-radius: 10px;
+	/* box-shadow: 1px 1px 0px yellow; */
+	background-color: rgb(235,235,235);
+	height : 50%;
+	width : 50%;
+	
+	margin : 10% 10% 10% 10%;
+	/* clear float position */
+	
 }
-//reponsive design cad avoir une interface qui s'adapte à tous les écrans 
+/* reponsive design cad avoir une interface qui s'adapte à tous les écrans  */
