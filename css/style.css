@@ -3,25 +3,26 @@
 	/* background-image : url(''); */
 	background-color : rgb(133,218,200);
 }
-#ensemble
-{
-	border : 1px solid rgba(100,155,140,1);
-		
-}
-
 #App
 {
 	border : 2px solid rgba(200,155,140,1);
 	margin : 1% 5% 1% 5%;
-	overflow : hidden;
+	height : 1000px;
+	width : 1200px;
 }
+#ensemble
+{
+	border : 1px solid rgba(100,155,140,1);
+	margin : 100px 10% 10% 20%;
+}
+
 
 #menu 
 {
 	border : 1px solid rgba(100,155,140,1);
-	margin : 0px 0px 0px 30%;
-	
+	margin : 0px 32% 0px 20%;
 }
+
 
 #canvas 
 {
@@ -31,10 +32,30 @@
 	background-color: rgb(235,235,235);
 	height : 600px;
 	width : 700px;
-	
-	margin : 6% 10% 10% 30%;
 	/* clear float position */	
 }
+
+#boiteOutil
+{
+	border : 5px solid rgba(40,155,140,1);
+	background-color: #fb214;
+	margin : -610px 0px 0px 710px;
+	height : 600px;
+	
+}
+#edit
+{
+	padding:6px 0 6px 0;
+	font:bold 13px Arial;
+	background:#478bf9;
+	color:#fff;
+	border-radius:10px;
+	width:100px;
+	border:1px solid #ccc;
+	box-shadow:1px 1px 3px #999;
+	margin-left : -1%;
+}
+
 /* reponsive design cad avoir une interface qui s'adapte à tous les écrans  */
 
 /* cibler les smartphones  */
@@ -52,16 +73,7 @@
 		margin : 5% 5% 15% 5%;	
 	}
 }
-@media all  and (max-width: 800px) and (max-width : 1200px)
-{
-	
-	#App
-	{
-		height : 1000px;
-		width : 1200px;
-	}
 
-}
 @media all and (max-width: 800px) 
 {
 
