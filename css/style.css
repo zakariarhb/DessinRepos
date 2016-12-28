@@ -43,6 +43,7 @@
 	height : 600px;
 	
 }
+
 #edit
 {
 	padding:6px 0 6px 0;
@@ -55,6 +56,18 @@
 	box-shadow:1px 1px 3px #999;
 	margin-left : -1%;
 }
+.icon
+{
+	padding:6px 0 6px 0;
+	font:bold 13px Arial;
+	/* background:#478bf9; */
+	color:#fff;
+	border-radius:10px;
+	width:116px;
+	border:1px solid #ccc;
+	box-shadow:1px 1px 3px #999;
+}
+
 
 /* reponsive design cad avoir une interface qui s'adapte à tous les écrans  */
 
@@ -77,8 +90,9 @@
 @media all and (max-width: 800px) 
 {
 
-	#canvas {
+	#canvas,#boiteOutil {
 		display :none;	
 	}
+	
 }
 
