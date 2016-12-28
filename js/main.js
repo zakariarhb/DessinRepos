@@ -49,10 +49,14 @@ window.onload = function(){//empêche l'execution du code avant le chargement de 
 	
 	//button trait
 	var buttonTrait = document.getElementById	("trait");
-	buttonTrait.addEventListener('click',function(){
+	//buttonTrait.addEventListener('click');
+	canvas.addEventListener('click',function(e){
 		context.beginPath();
-		context.moveTo(200, 200);
-		context.lineTo(400,400);
+		var mouseX = e.clientX - 321;
+		var mouseY = e.clientY - 152;
+		context.moveTo(mouseX,mouseY);
+		context.lineTo(100,100);
+		console.log("X :"+mouseX+" Y :"+mouseY);
 		context.stroke();
 	},false);
 }
