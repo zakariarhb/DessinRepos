@@ -1,7 +1,7 @@
-//var nbrePoints=5;//vous pouvez choisir d'autres valeurs
+ï»¿//var nbrePoints=5;//vous pouvez choisir d'autres valeurs
 
 //constructeur
-function Etoile(x , y, ryInt, ryExt ,nbreP)//nbreP est optionnelle,compatibilites à gérer
+function Etoile(x , y, ryInt, ryExt ,nbreP)//nbreP est optionnelle,compatibilites Ã  gÃ©rer
 {
 	/* optionnel(ryInt,10);
 	optionnel(ryExt,20);
